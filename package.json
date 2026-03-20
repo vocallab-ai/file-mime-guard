@@ -1,0 +1,33 @@
+{
+  "name": "file-mime-guard",
+  "version": "1.0.0",
+  "description": "A tiny utility to validate file MIME types in Node.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/__tests__/index.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mime",
+    "mime-type",
+    "file-upload",
+    "validation",
+    "guard"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
