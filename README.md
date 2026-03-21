@@ -7,7 +7,6 @@
 [![GitHub Stars](https://img.shields.io/github/stars/vocallab-ai/file-mime-guard)](https://github.com/vocallab-ai/file-mime-guard)
 
 Validate file MIME types in Node.js and JavaScript.
-
 Protect your backend from invalid or malicious uploads by checking file types before processing.
 
 Perfect for upload validation, API security, and media pipelines.
