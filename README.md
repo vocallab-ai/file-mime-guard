@@ -1,9 +1,16 @@
-# file-mime-guard
+# file-mime-guard — Validate File MIME Types in Node.js (Upload Security)
 
-A tiny utility to validate file MIME types in Node.js.
+[![npm version](https://img.shields.io/npm/v/file-mime-guard)](https://www.npmjs.com/package/file-mime-guard)
+[![types](https://img.shields.io/npm/types/file-mime-guard)](https://www.npmjs.com/package/file-mime-guard)
+[![TypeScript](https://img.shields.io/badge/TypeScript-yes-blue)](https://www.typescriptlang.org/)
+[![downloads](https://img.shields.io/npm/dm/file-mime-guard)](https://www.npmjs.com/package/file-mime-guard)
+[![GitHub Stars](https://img.shields.io/github/stars/vocallab-ai/file-mime-guard)](https://github.com/vocallab-ai/file-mime-guard)
 
-Useful for upload validation, backend checks, and media processing pipelines.
+Validate file MIME types in Node.js and JavaScript.
 
+Protect your backend from invalid or malicious uploads by checking file types before processing.
+
+Perfect for upload validation, API security, and media pipelines.
 ## Features
 
 - Check whether a MIME type is allowed
@@ -54,17 +61,34 @@ assertMimeType("audio/mpeg", [
 console.log("File type is valid");
 ```
 
-## Use cases
+## Use Cases
 
-- Validate uploaded files
-- Restrict unsupported audio formats
-- Protect backend upload endpoints
-- Add simple checks before transcription or processing
+- Validate file uploads in Node.js APIs (Express, Fastify)
+- Prevent users from uploading unsupported or dangerous file types
+- Restrict uploads to audio, image, or video formats
+- Add security checks before storing files or processing them
+- Protect transcription or media pipelines from invalid input
+
+
+## Why file-mime-guard?
+
+Most file upload handlers trust user input — which can be unsafe.
+
+This package provides a simple way to enforce allowed MIME types and prevent invalid or malicious uploads.
 
 ## Related
 
-For larger voice workflows and hosted tools, see [vocallab.ai](https://vocallab.ai).
+Building voice apps or audio tools?
 
+👉 https://www.vocallab.ai — generate voiceovers and captions from text
 ## License
 
 MIT
+
+## Keywords
+
+- validate file upload nodejs
+- check mime type javascript
+- file upload security node js
+- prevent invalid file upload
+- mime type validation npm
